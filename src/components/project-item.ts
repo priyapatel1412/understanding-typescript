@@ -1,7 +1,7 @@
-import {Component} from './base-component.js';
-import {Project} from '../models/project.js';
-import {autoBind} from '../decorators/autobind.js';
-import {Dragable} from '../models/drag-drop.js';
+import {Component} from './base-component';
+import {Project} from '../models/project';
+import {autoBind} from '../decorators/autobind';
+import {Dragable} from '../models/drag-drop';
 
 // ProjectItem class responsible for rendering the single item
 export class ProjectItem
